@@ -1,5 +1,51 @@
-# Spring-Boot-Payment-Gateway
+# Payment Transaction API
 
-A simple paypal payment integration using spring boot. 
+Backend-focused payment processing application built using Java 17 and Spring Boot.
 
-![demo](https://github.com/Nuralam51/Spring-Boot-Payment-Gateway/blob/e7b0f175ae2f9385e8b6fed61ae5f1e12fccc315/src/main/resources/static/demo.png)
+## Features
+
+- Payment processing APIs
+- Transaction management
+- REST API architecture
+- Exception handling
+- Validation support
+- Docker-ready setup
+
+## Tech Stack
+
+- Java 17
+- Spring Boot
+- Spring Security
+- MySQL
+- Maven
+- Docker
+
+## Modules
+
+- Payment Service
+- Transaction Service
+- Authentication Layer
+
+## Project Goals
+
+This project was built to explore:
+
+- Payment workflows
+- Transaction handling
+- Secure REST API development
+- Backend validation and exception handling
+- Docker containerization
+
+## Running the Project
+
+```bash
+mvn clean install
+mvn spring-boot:run
+```
+
+## API Testing
+
+Postman collections were used for testing:
+- Payment APIs
+- Transaction APIs
+- Authentication APIs
